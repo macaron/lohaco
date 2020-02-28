@@ -1,7 +1,8 @@
-## lohaco自動注文ツール
+## 自動注文ツール
+
+EditThisCookieでcookieをエクスポートし、`amazon.json` `lohaco.json` をプロジェクトディレクトリに設置します。
 
 ```bash
 $ git clone github.com/macaron/lohaco && cd lohaco
-$ npm i
-$ node index.js
+$ docker-compose run --rm nodejs node [ amazon.js | lohaco.js ]
 ```
